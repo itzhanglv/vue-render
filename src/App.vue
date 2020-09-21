@@ -1,7 +1,7 @@
 <template>
     <div>
         <button @click="visible = !visible">click me</button>
-        <my-dialog1 :visible.sync="visible"></my-dialog1>
+        <my-dialog :visible.sync="visible"></my-dialog>
     </div>
 </template>
 
